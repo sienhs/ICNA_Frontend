@@ -1,32 +1,28 @@
 -----
 
-### ICNA (Information & Communication Network Act)
+### **Project Title**
 
-This project, **ICNA**, is an AI-powered chatbot service specializing in legal consultation related to the **Information and Communication Network Act**.
-
-The service provides users with valuable legal knowledge and useful information on various everyday laws. Its primary feature is a chatbot that offers real-time legal advice and answers to user queries, helping people better understand and navigate the complexities of legal matters.
+This is a brief description of what your project does.
 
 -----
 
-### Key Technology Stack
+### **Key Technology Stack**
 
+  * **Frontend**: Vue.js
   * **Backend**: Node.js, Express.js
-  * **AI Model**: Naver HyperClova X (HCX-003) REST API
   * **Database**: MongoDB
 
 -----
 
-### Getting Started
+### **Getting Started**
 
-#### Prerequisites
+#### **Prerequisites**
 
-To run this project, you'll need the following:
+To run this project, you need:
 
   * **Node.js**: The runtime environment.
-  * **MongoDB**: An instance of MongoDB must be running locally.
-  * **Naver HyperClova X API Key**: You need an API key to access the `HCX-003` model.
 
-#### Installation
+#### **Installation**
 
 1.  Clone this repository:
 
@@ -40,7 +36,7 @@ To run this project, you'll need the following:
     cd [Your Project Folder Name]
     ```
 
-3.  Install the necessary packages:
+3.  Install dependencies:
 
     ```bash
     npm install
@@ -48,9 +44,14 @@ To run this project, you'll need the following:
 
 -----
 
-### Running the Project
+### **Running the Project**
 
-  * **To run the backend server**:
-    ```bash
-    node app.js
-    ```
+To start the local development server:
+
+```bash
+npm run dev
+```
+
+This will run the app at `http://localhost:3000/`.
+
+-----
